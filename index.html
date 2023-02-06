@@ -406,17 +406,18 @@
                                     <div class="wpo-section-title">
                                         <h4>Are You Attending?</h4>
                                     </div>
-                                    <form action="https://formspree.io/f/xzbqepea" method="POST">
+                                    <form action="https://formspree.io/f/xzbqepea" method="POST" class="contact-validation-active" id="contact-form-main">
+                                        <div>
                                         <label>
                                             Your email:
-                                            <input type="email" name="email">
-                                        </label>
-                                        <label>
+                                            <input type="email" name="email" class="form-control">
+                                        </label> </div>
+                                        <div><label>
                                             Your message:
-                                            <textarea name="message"></textarea>
-                                        </label>
+                                            <textarea name="message" class="form-control"></textarea>
+                                        </label> </div>
                                         <!-- your other form fields go here -->
-                                        <button type="submit">Send</button>
+                                        <div><button type="submit" class="theme-btn">Send</button></div>
                                     </form>
                                     <!--<form action="https://formspree.io/f/xzbqepea" method="POST" class="contact-validation-active" id="contact-form-main">
                                         
@@ -438,7 +439,7 @@
                                             <div id="success">Thank you</div>
                                             <div id="error"> Error occurred while sending email. Please try again later.
                                             </div>
-                                        </div>-->
+                                        </div>
                                     </form>-->
                                 </div>
                             </div>
